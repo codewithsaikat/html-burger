@@ -1,0 +1,306 @@
+@media only screen and (min-width: 1400px) and (max-width: 1500px) {
+    .text-img .text-block-1 {
+        position: absolute;
+        top: 107px;
+       
+        font-weight: 400;
+        letter-spacing: 2px;
+        line-height: 1.2;
+        right: 1110px;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    .text-img .max-min {
+        width: 100%;
+        max-width: 595px;
+        min-width: 0px;
+    }
+
+    .text-block-1 {
+        position: absolute;
+        top: 107px;
+        left: 152px;
+
+    }
+
+    .text-block-2 {
+        position: absolute;
+        top: 107px;
+        right: 500px;
+       
+    }
+    .text-block-3 {
+        position: absolute;
+       
+        right: 500px;
+       
+    }
+
+    .carousel-main .carousel-indicators {
+        position: absolute;
+        bottom: -31px;
+        left: -655px;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-right: 15%;
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        list-style: none;
+        border-radius: 50%;
+    }
+}
+
+    /* Medium Layout: 1280px. */
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+        .hero-area h1 {
+            font-size: 6.144rem;
+        }
+        .text-img .max-min {
+            
+                width: 100%;
+                min-width: 445px;
+            
+        }
+
+        .text-block-2 {
+           
+            right: 371px;
+           
+        }
+        .text-block-3 {
+            
+            right: 371px;
+           
+        }
+
+        .carousel-main .carousel-indicators {
+            bottom: -61px;
+            left: -1234px;
+        }
+
+        .hero-area p {
+
+            font-size: 21.65px;
+        }
+
+        .image-tile .img-gallery img {
+            height: 463px;
+            width: 497px;
+            object-fit: contain;
+        }
+
+
+
+        .carousel-main .carousel-indicators {
+            bottom: -51px;
+            left: -570px;
+        }
+
+        
+    }
+
+
+
+
+
+
+    /* Tablet Layout: 768px. */
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .text-img .max-min {
+            width: 100%;
+            min-width: 0px;
+        }
+        .navbar {
+            position: absolute;
+            right: 37px;
+            text-align: center;
+        }
+
+        .carousel-main .carousel-indicators {
+            bottom: -51px;
+            left: -570px;
+        }
+
+        .hero-area h1 {
+            font-size: 5.144rem;
+        }
+
+        .navbar-text {
+            padding-top: 2.5rem;
+
+        }
+
+        .topbar {
+            margin-top: -46px;
+            position: relative;
+        }
+
+        .hero-text {
+            padding-top: 72px;
+        }
+
+        .image-tile {
+            padding-top: 0px;
+        }
+
+        .from-control-area .mg-3 {
+            position: absolute;
+            right: -111px;
+            top: -65px;
+        }
+
+        .from-control-area .mg-2 {
+            position: absolute;
+            left: -62px;
+            top: 207px;
+        }
+
+        .footer-left .cp-text {
+            top: 582px;
+            position: absolute;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 16.83px;
+        }
+
+        .social-icon ul {
+            position: absolute;
+            top: 570px;
+            right: 0px;
+            padding: 0px 30px;
+        }
+
+
+        .carousel-main .carousel-indicators {
+            bottom: -61px;
+            left: -1234px;
+        }
+
+        .text-img .max-min {
+            width: 100%;
+            min-width: 0px;
+            max-width: 595px;
+        }
+
+        .text-img .max-min {
+            /* width: 100%; */
+            /* min-width: 0px; */
+            max-width: 595px;
+            margin-top: 40px;
+            align-items: none;
+        }
+
+        .text-block-2 {
+            position: absolute;
+            top: 591px;
+            right: 523px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            line-height: 1.2;
+        }
+        .text-block-3 {
+            position: absolute;
+            top: 840px;
+            right: 517px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            line-height: 1.2;
+        }
+        .text-block-1 {
+            top: 114px;
+        }
+
+
+    .text-img .max-min {
+        width: 100%;
+        min-width: 0px;
+        margin-top: 20px;
+    }
+
+    }
+
+
+
+    /* Wide Mobile Layout: 480px. */
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .navbar-text {
+            padding-top: 2.5rem;
+
+        }
+
+        .text-img .max-min {
+            width: 100%;
+            min-width: 0px;
+            margin-top: 20px;
+        }
+
+        .hero-area h1 {
+            font-size: 5.144rem;
+        }
+
+        .hero-area h1 {
+            font-size: 5.144rem;
+        }
+
+        .topbar {
+            margin-top: 22px;
+            position: relative;
+        }
+
+        .navbar {
+            position: absolute;
+            right: 37px;
+            text-align: center;
+        }
+
+        .hero-text {
+            padding-top: 100px;
+        }
+
+        .image-tile {
+            padding-top: 0px;
+        }
+
+        .image-tile .img-gallery img {
+            height: 452px;
+            width: 500px;
+            object-fit: contain;
+        }
+
+        .from-control-area .mg-1 {
+            position: absolute;
+            top: -41px;
+            left: -66px;
+        }
+
+        .from-control-area .mg-2 {
+            position: absolute;
+            left: -61px;
+            top: 207px;
+        }
+
+        .from-control-area .mg-3 {
+            position: absolute;
+            right: -124px;
+            top: -77px;
+        }
+
+        .footer-left .cp-text {
+            top: 582px;
+            position: absolute;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 16.83px;
+        }
+
+        .social-icon ul {
+            position: absolute;
+            top: 570px;
+            right: 0px;
+            padding: 0px 30px;
+        }
+    }
+
+    /* Mobile Layout: 320px. */
+    @media only screen and (max-width: 767px) {}
